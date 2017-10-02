@@ -1,0 +1,27 @@
+{
+  "name": "stylelint-config-fandom",
+  "version": "0.0.1",
+  "description": "Stylelint ruleset for Fandom",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wikia/stylelint-config-fandom.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "author": "Fandom",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/Wikia/stylelint-config-fandom/issues"
+  },
+  "homepage": "https://github.com/Wikia/stylelint-config-fandom#readme",
+  "dependencies": {
+    "stylelint": "^8.1.1",
+    "stylelint-config-standard": "^17.0.0",
+    "stylelint-order": "^0.7.0",
+    "stylelint-scss": "^2.1.0"
+  }
+}
