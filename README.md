@@ -3,9 +3,13 @@ Stylelint ruleset for Fandom
 
 ## Usage
 
-### package.json
+#### package.json
 ```json
 {
+  "scripts": {
+    "lint.css": "stylelint \"styles/**/*.{css,scss}\"",
+    "lint.css.fix": "stylelint \"styles/**/*.{css,scss}\" --fix",
+  },
   "devDependencies": {
     "stylelint": "^8.1.1",
     "stylelint-config-fandom": "git://github.com/Wikia/stylelint-config-fandom.git#0.0.1",
@@ -15,9 +19,19 @@ Stylelint ruleset for Fandom
 }
 ```
 
-### .stylelintrc
+#### .stylelintrc
 ```json
 {
   "extends": "stylelint-config-fandom",
 }
 ```
+
+### Usage
+```
+> npm run lint.css
+```
+OR
+```
+> yarn lint.css
+```
+
