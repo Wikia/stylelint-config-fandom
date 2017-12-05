@@ -25,7 +25,7 @@ module.exports = {
       ignoreAtRules: ["media", "else"]
     }],
     "at-rule-no-unknown": [true, {
-      ignoreAtRules: ["extend", "include", "mixin", "for", "if", "else", "function", "return"]
+      ignoreAtRules: ["extend", "include", "mixin", "for", "if", "else", "function", "return", "content"]
     }],
     "order/properties-alphabetical-order": true,
     "order/order": [
